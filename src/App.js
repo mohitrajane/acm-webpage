@@ -3,19 +3,21 @@ import './App.css';
 import './output.css';
 import Navbar from './nav';
 import Footer from './footer';
-import Main from './main_page';
 import Contents from './Contents';
+import {BrowserRouter as Router,Route} from 'react-router-dom';
 
 
 class App extends Component{
   render(){
     return(
+      <Router>
       <div class="main">
         <Navbar/> 
-        <Main/>
-        <Contents/>
+        <Route exact path="/" component={Contents}/>
+
         <Footer/>
       </div>
+      </Router>
     );
   }
 }
