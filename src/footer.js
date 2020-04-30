@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import Right from './copyright-24px.svg';
 import {AiFillHeart} from 'react-icons/ai';
 import Man from './man.svg';
 
-class Footer extends React.Component{
+class Footer extends Component{
     render(){
         return(
             <div class="footer">
