@@ -39,17 +39,17 @@ class contents extends Component{
                 </div> 
                 {/*Details about the present members with their numbers and name*/}
                 <div class="py-4">
-                    <div class="py-4">
-                        <div class="flex justify-center heading">
-                            <h1>
-                                THANKS FOR VISITING US
-                            </h1>
-                        </div>
-                        <div class="flex justify-center">
-                            <hr class="w-64 border-2"/>
-                        </div>
+                    <div class="flex justify-center heading py-3">
+                        <h1>
+                            THANKS FOR VISITING US
+                        </h1>
                     </div>
-                    <div class="flex flex-wrap">
+                    <div class="flex justify-center">
+                        <hr class="w-64 border-2"/>
+                    </div>
+                </div>
+                <div class="flex flex-wrap py-4">
+
                     {/*Acm directives contact*/}
                         <div class="lg:w-full">
                             <h1 class="flex justify-center text-2xl">Contact Us</h1>
@@ -60,7 +60,7 @@ class contents extends Component{
 
                         </div>
 
-                    </div>
+                    
                 </div>
 
             </div>
