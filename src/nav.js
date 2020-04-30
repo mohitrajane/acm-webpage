@@ -6,6 +6,17 @@ import Menu from './menu-24px.svg';
 
 
 class Nav extends Component{
+    constructor(props){
+        super(props);
+        this.state={
+            isOpen:false
+        };
+        this.showContent = this.showContent.bind(this);
+    }
+    showContent(){
+        this.setState({isOpen: !this.state.isOpen});
+        console.log(this.state.isOpen);
+    }
     render(){
         return(
             <div>
@@ -15,28 +26,31 @@ class Nav extends Component{
                         <Link to="/">
                             <img class="h-16 w-16 mx-4 mt-4" src={logo}/>
                         </Link> 
-                        <button onClick="showContent()">
+                        <button onClick={this.showContent}>
                             <img src={Menu}/>
                         </button>
                     </div>
-                    <div class="dropdownelements grid-cols-1" id="Content">
-                        <Link>
-                            <a>Events</a>
-                        </Link><br/>
-                        <Link>
-                            <a>Gallery</a>
-                        </Link><br/>
-                        <Link to="/people">
-                            <a>People</a>
-                        </Link><br/>
-                        <Link>
-                            <a>Contact</a>
-                        </Link><br/>
+                    {this.state.isOpen?
+                        <div class="dropdownelements grid-cols-1" id="Content">
+                            <Link>
+                                <a>Events</a>
+                            </Link><br/>
+                            <Link>
+                                <a>Gallery</a>
+                            </Link><br/>
+                            <Link to="/people">
+                                <a>People</a>
+                            </Link><br/>
+                            <Link>
+                                <a>Contact</a>
+                            </Link><br/>
 
-                        <Link>
-                            <a>Events</a>
-                        </Link><br/>
-                    </div>
+                            <Link>
+                                <a>Events</a>
+                            </Link><br/>
+                        </div>
+                    :''
+                    }
                 </div>
                 {/*This is the code for the navbar for the larger devices */}
                 <div class="topnavbar hidden md:block lg:block" style={{position:"fixed",top:"0px",width:'100%'}}> 
