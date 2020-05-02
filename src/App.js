@@ -15,7 +15,7 @@ class App extends Component{
       <Router>
       <div class="main">
         <Navbar/>
-        <div class="mt-24">
+        <div class="md:mt-24">
           <Route exact path="/" component={Contents}/>
           <Route exact path="/people" component={People}/>
           <Route exact path="/event" component={Event}/>

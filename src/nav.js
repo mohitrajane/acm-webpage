@@ -6,10 +6,12 @@ import {Link} from 'react-router-dom';
 const Navbar = () =>{
     const [isOpen, setIsOpen] = useState(window.innerWidth <= 640 ? false : true);
     return(
-        <nav className="flex items-center justify-between flex-wrap bg-gray-100 text-blue-600 p-2">
-            <div className="flex items-center flex-shrink-0 mr-6">
-                <img class="h-16 w-16 mx-4 mt-4" src={logo}/>
-            </div>
+        <nav className="flex items-center justify-between flex-wrap bg-gray-100 text-blue-600 p-2 lg:fixed lg:w-full lg:top-0">
+            <Link to="/">
+                <div className="flex items-center flex-shrink-0 mr-6">
+                    <img class="h-16 w-16 mx-4 mt-4" src={logo}/>
+                </div>
+            </Link>
             <div className="block lg:hidden">
                 <button className="flex items-center px-3 py-2 border rounded text-blue-200 border-blue-400 hover:text-blue-600 hover:border-grey-100">
                 <svg onClick={()=>setIsOpen(!isOpen)} className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>

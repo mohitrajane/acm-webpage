@@ -18,7 +18,7 @@ class contents extends Component{
                         {/*Title and the heading for the ACM */}
                         <div class="sm:w-full lg:w-1/2">
                             <h1 class="flex justify-center text-2xl pt-4">Why ACM</h1>
-                            <p class="sm:px-16 lg:px-32 pt-6 pb-6 flex text-lg justify-center">ACM brings together computing educators, researchers, and professionals to inspire dialogue, share resources, 
+                            <p class="lg:px-32 py-6 flex text-lg justify-center">ACM brings together computing educators, researchers, and professionals to inspire dialogue, share resources, 
                             and address the field's challenges. As the world’s largest computing society, ACM strengthens the profession's collective voice through 
                             strong leadership, promotion of the highest standards, and recognition of technical excellence. ACM supports the professional growth 
                             of its members by providing opportunities for life‐long learning, career development, and professional networking.</p>
@@ -26,7 +26,7 @@ class contents extends Component{
                         {/*Title and the heading for the ACM FISAT*/}
                         <div class="sm:w-full lg:w-1/2">
                         <h1 class="flex justify-center text-2xl pt-4">ACM FISAT</h1>
-                        <p class="sm:px-16 lg:px-32 pt-6 pb-6 flex text-lg justify-center">ACM Students Chapter FISAT is the biggest Computer Science Students Chapter in FISAT.
+                        <p class="lg:px-32 py-6 flex text-lg justify-center">ACM Students Chapter FISAT is the biggest Computer Science Students Chapter in FISAT.
                         It even consist a group where use can ask and clarify your doubts or even others doubts as well. The group even consist of teaching faculty
                         where even they are willing to help and guide you through your various doubts and even helps in your projects. We are always ready to help you.
                         To join in our community use the buton given below.</p>
@@ -53,10 +53,10 @@ class contents extends Component{
                     {/*Acm directives contact*/}
                         <div class="lg:w-full">
                             <h1 class="flex justify-center text-2xl">Contact Us</h1>
-                            <p class="flex justify-center py-2"><img src={Man}/>Yadhu Krishnan(Chairman) <img class="pl-3" src={Phone}/>828-153-7729</p>
-                            <p class="flex justify-center py-2"><img src={Man}/>Aswin S (Secretary) <img class="pl-3" src={Phone}/>8281502849</p>
-                            <p class="flex justify-center py-2"><img src={Man}/>Visrutha Aruhnthathi(Vice Chairman) <img class="pl-3" src={Phone}/>9495497126</p>
-                            <p class="flex justify-center py-2"><img src={Man}/>Naveen B Jacob(Tresurer) <img class="pl-3" src={Phone}/>8606330293</p>
+                            <p class="sm:flex py-3 lg:flex lg:justify-center"><img src={Man}/>Yadhu Krishnan(Chairman) <img src={Phone}/>828-153-7729</p>
+                            <p class="py-3 lg:flex lg:justify-center"><img src={Man}/>Aswin S (Secretary) <img src={Phone}/>8281502849</p>
+                            <p class="py-3 lg:flex lg:justify-center"><img src={Man}/>Visrutha Aruhnthathi(Vice Chairman) <img src={Phone}/>9495497126</p>
+                            <p class="py-3 lg:flex lg:justify-center"><img src={Man}/>Naveen B Jacob(Tresurer) <img src={Phone}/>8606330293</p>
 
                         </div>
 

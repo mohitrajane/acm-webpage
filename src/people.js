@@ -22,7 +22,7 @@ class People extends Component{
             {/*---------------------------------------For the people cards----------------------------------------------------*/}
             <div class="flex flex-wrap text-blue-600">
                 {/*Card 1 starts here*/}
-                <div class="lg:p-4 w-1/6">
+                <div class="p-4 w-1/6">
                     <div class="max-w-sm rounded overflow-hidden bg-gray-100 shadow-lg">
                         <img class="w-full" src={Mohit} alt="Sunset in the mountains"/>
                         <div class="px-6 py-4">
