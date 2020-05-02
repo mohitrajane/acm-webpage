@@ -32,12 +32,6 @@ const Navbar = () =>{
                     <Link to="/People" className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
                         People
                     </Link>
-                    <Link to="/" className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
-                        Contact
-                    </Link>
-                    <Link to="/" className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
-                        News
-                    </Link>
                    
                     </div>
                  </div>
