@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import './output.css';
-import Navbar from './nav';
-import Footer from './footer';
-import Contents from './Contents';
-import Event from './event';
-import People from './people'
+import Navbar from './component/nav';
+import Footer from './component/footer';
+import Contents from './component/Contents';
+import Event from './component/event';
+import People from './component/people'
 import {BrowserRouter as Router,Route} from 'react-router-dom';
 
 

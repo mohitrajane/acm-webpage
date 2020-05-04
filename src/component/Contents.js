@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Man from './man.svg';
-import Phone from './phone.svg';
-import logo from './Acmlogo.jpeg';
+import Man from './images/man.svg';
+import Phone from './images/phone.svg';
+import logo from './images/Acmlogo.jpeg';
 import {FiInstagram} from 'react-icons/fi';
 
 class contents extends Component{

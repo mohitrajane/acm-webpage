@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {AiFillHeart} from 'react-icons/ai';
-import Man from './man.svg';
+import Man from './images/man.svg';
 
 class Footer extends Component{
     render(){
