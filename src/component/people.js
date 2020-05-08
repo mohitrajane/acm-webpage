@@ -22,9 +22,9 @@ class People extends Component{
             </p>
             </div>
             {/*---------------------------------------For the people cards----------------------------------------------------*/}
-            <div class="flex flex-wrap text-blue-600 py-8">
+            <div class="flex flex-wrap justify-center text-blue-600 py-2">
                 {/*Card 1 starts here*/}
-                <div class="p-4 w-1/6 sm:px-2 w-full md:flex flex-wrap justify-center">
+                <div class="md:px-2 py-2 lg:px-2 py-2">
                     <div class="max-w-sm rounded overflow-hidden bg-gray-100 shadow-lg">
                         <img class="w-full" src={Mohit} alt="Sunset in the mountains"/>
                         <div class="px-6 py-4">
@@ -40,7 +40,7 @@ class People extends Component{
                 {/*card 1 ends here*/}
 
                 {/*Card 2 starts here*/}
-                <div class="p-4 w-1/6 sm:px-2 w-full md:flex flex-wrap justify-center">
+                <div class="md:px-2 py-2 lg:px-2 py-2">
                     <div class="max-w-sm rounded overflow-hidden bg-gray-100 shadow-lg">
                         <img class="w-full" src={Leo} alt="Sunset in the mountains"/>
                         <div class="px-6 py-4">
@@ -55,7 +55,7 @@ class People extends Component{
                 </div>
                 {/*card 2 ends here*/}
                 {/*Card 3 starts here*/}
-                <div class="p-4 w-1/6 sm:px-2 w-full md:flex flex-wrap justify-center">
+                <div class="md:px-2 py-2 lg:px-2 py-2">
                     <div class="max-w-sm rounded overflow-hidden bg-gray-100 shadow-lg">
                         <img class="w-full" src={Nandini} alt="Sunset in the mountains"/>
                         <div class="px-6 py-4">
@@ -70,7 +70,7 @@ class People extends Component{
                 </div>
                 {/*card 3 ends here*/}
                 {/*Card 4 starts here*/}
-                <div class="p-4 w-1/6 sm:px-2 w-full md:flex flex-wrap justify-center">
+                <div class="md:px-2 py-2 lg:px-2 py-2">
                     <div class="max-w-sm rounded overflow-hidden bg-gray-100 shadow-lg">
                         <img class="w-full" src={Leo} alt="Sunset in the mountains"/>
                         <div class="px-6 py-4">
@@ -85,7 +85,7 @@ class People extends Component{
                 </div>
                 {/*card 4 ends here*/}
                 {/*Card 5 starts here*/}
-                <div class="p-4 w-1/6 sm:px-2 w-full md:flex flex-wrap justify-center">
+                <div class="md:px-2 py-2 lg:px-2 py-2">
                     <div class="max-w-sm rounded overflow-hidden bg-gray-100 shadow-lg">
                         <img class="w-full" src={Bryan} alt="Sunset in the mountains"/>
                         <div class="px-6 py-4">
@@ -100,7 +100,7 @@ class People extends Component{
                 </div>
                 {/*card 5 ends here*/}
                 {/*Card 6 starts here*/}
-                <div class="p-4 w-1/6 sm:px-2 w-full md:flex flex-wrap justify-center">
+                <div class="md:px-2 py-2 lg:px-2 py-2">
                     <div class="max-w-sm rounded overflow-hidden bg-gray-100 shadow-lg">
                         <img class="w-full" src={Deepak} alt="Sunset in the mountains"/>
                         <div class="px-6 py-4">
@@ -115,7 +115,7 @@ class People extends Component{
                 </div>
                 {/*card 6 ends here*/}
                 {/*Card 7 starts here*/}
-                <div class="p-4 w-1/6 sm:px-2 w-full md:flex flex-wrap justify-center">
+                <div class="md:px-2 py-2 lg:px-2 py-2">
                     <div class="max-w-sm rounded overflow-hidden bg-gray-100 shadow-lg">
                         <img class="w-full" src={Alen} alt="Sunset in the mountains"/>
                         <div class="px-6 py-4">
@@ -130,7 +130,7 @@ class People extends Component{
                 </div>
                 {/*card 7 ends here*/}
                 {/*Card 8 starts here*/}
-                <div class="p-4 w-1/6 sm:px-2 w-full md:flex flex-wrap justify-center">
+                <div class="md:px-2 py-2 lg:px-2 py-2">
                     <div class="max-w-sm rounded overflow-hidden bg-gray-100 shadow-lg">
                         <img class="w-full" src={Leo} alt="Sunset in the mountains"/>
                         <div class="px-6 py-4">
@@ -145,7 +145,7 @@ class People extends Component{
                 </div>
                 {/*card 8 ends here*/}
                 {/*Card 9 starts here*/}
-                <div class="p-4 w-1/6 sm:px-2 w-full md:flex flex-wrap justify-center">
+                <div class="md:px-2 py-2 lg:px-2 py-2">
                     <div class="max-w-sm rounded overflow-hidden bg-gray-100 shadow-lg">
                         <img class="w-full" src={Leo} alt="Sunset in the mountains"/>
                         <div class="px-6 py-4">
@@ -160,7 +160,7 @@ class People extends Component{
                 </div>
                 {/*card 9 ends here*/}
                 {/*Card 10 starts here*/}
-                <div class="p-4 w-1/6 sm:px-2 w-full md:flex flex-wrap justify-center">
+                <div class="md:px-2 py-2 lg:px-2 py-2">
                     <div class="max-w-sm rounded overflow-hidden bg-gray-100 shadow-lg">
                         <img class="w-full" src={Paul} alt="Sunset in the mountains"/>
                         <div class="px-6 py-4">
@@ -175,7 +175,7 @@ class People extends Component{
                 </div>
                 {/*card 10 ends here*/}
                 {/*Card 11 starts here*/}
-                <div class="p-4 w-1/6 sm:px-2 w-full md:flex flex-wrap justify-center">
+                <div class="md:px-2 py-2 lg:px-2 py-2">
                     <div class="max-w-sm rounded overflow-hidden bg-gray-100 shadow-lg">
                         <img class="w-full" src={Naveen} alt="Sunset in the mountains"/>
                         <div class="px-6 py-4">
@@ -190,7 +190,7 @@ class People extends Component{
                 </div>
                 {/*card 11 ends here*/}
                 {/*Card 12 starts here*/}
-                <div class="p-4 w-1/6 sm:px-2 w-full md:flex flex-wrap justify-center">
+                <div class="md:px-2 py-2 lg:px-2 py-2">
                     <div class="max-w-sm rounded overflow-hidden bg-gray-100 shadow-lg">
                         <img class="w-full" src={Devu} alt="Sunset in the mountains"/>
                         <div class="px-6 py-4">
