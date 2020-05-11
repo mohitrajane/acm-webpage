@@ -6,7 +6,7 @@ import Footer from './component/footer';
 import Contents from './component/Contents';
 import Event from './component/event';
 import People from './component/people';
-import Head from './component/Heads';
+
 
 import {BrowserRouter as Router,Route} from 'react-router-dom';
 
@@ -22,7 +22,7 @@ class App extends Component{
           <Route exact path="/" component={Contents}/>
           <Route exact path="/people" component={People}/>
           <Route exact path="/event" component={Event}/>
-          <Route exact path="/heads" component={Head}/>
+
 
         </div> 
         <Footer/>

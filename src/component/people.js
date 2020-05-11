@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Heads from './Heads';
 import Mohit from './images/mohit.jpg';
 import Leo from './images/leo.png';
 import Paul from './images/paul.jpg';
@@ -18,6 +19,7 @@ class People extends Component{
 
             {/*heading*/}
             <div>
+            <Heads/>
             <h1 className="flex justify-center text-3xl text-blue">Mentionable people</h1>
             <p className="flex justify-center text-lg text-blue">This page is used to mention those people who all stood up with ACM no matter what!!
             </p>
