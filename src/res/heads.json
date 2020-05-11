@@ -1,0 +1,19 @@
+{
+    "2019" : [
+        {
+            "image":"../component/images/naveen.jpg",
+            "post" :"treasurer"
+        },
+        {
+            "image":"../component/images/naveen.jpg",
+            "post" :"treasurer"
+        },
+        {
+            "image":"../component/images/naveen.jpg",
+            "post" :"treasurer"
+        }
+    ],
+    "2018" : [
+        
+    ]
+}
