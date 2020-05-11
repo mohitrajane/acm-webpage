@@ -51,13 +51,24 @@ class contents extends Component{
                 <div class="py-4 lg:flex flex-wrap">
 
                     {/*Acm directives contact*/}
-                        <div class="lg:w-full">
-                            <h1 class="flex justify-center text-2xl">Contact Us</h1>
+                        <div className="lg:w-full flex">
+                            {/* <h1 class="flex justify-center text-2xl">Contact Us</h1>
                             <p class="py-3 flex justify-center"><img src={Man}/>Yadhu Krishnan(Chairman) <img src={Phone}/>828-153-7729</p>
                             <p class="py-3 flex justify-center"><img src={Man}/>Aswin S (Secretary) <img src={Phone}/>8281502849</p>
                             <p class="py-3 flex justify-center"><img src={Man}/>Visrutha Aruhnthathi(Vice Chairman) <img src={Phone}/>9495497126</p>
-                            <p class="py-3 flex justify-center"><img src={Man}/>Naveen B Jacob(Tresurer) <img src={Phone}/>8606330293</p>
-
+                            <p class="py-3 flex justify-center"><img src={Man}/>Naveen B Jacob(Tresurer) <img src={Phone}/>8606330293</p> */}
+                        <div>
+                            <img src='' alt="chairman"></img>
+                            <div className="rounded-full"> test</div>
+                        </div>
+                        <div>
+                            <img src='' alt="Staff incharge"></img>
+                            <div className="rounded-full"> Miss</div>
+                        </div>
+                        <div>
+                            <img src='' alt="vice chair"></img>
+                            <div className="rounded-full"> vice</div>
+                        </div>
                         </div>
                 </div>
 
