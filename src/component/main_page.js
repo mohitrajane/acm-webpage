@@ -5,7 +5,7 @@ class Main extends Component{
     render(){
         return(
             <div>
-                <img class="h-full" src={logo}/>
+                <img className="h-full" src={logo} alt="mainImage"/>
             </div>
         );
     }
