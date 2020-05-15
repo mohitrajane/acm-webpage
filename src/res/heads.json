@@ -1,16 +1,20 @@
 {
     "2019" : [
         {   
-            "image":"../component/images/naveen.jpg",
-            "post" :"treasurer"
+            "image":"/images/devu.jpg",
+            "post" :"Chairman"
         },
         {
-            "image":"../component/images/naveen.jpg",
-            "post" :"treasurer"
+            "image":"/images/devu.jpg",
+            "post" :"Vice Chair"
         },
         {
-            "image":"../component/images/naveen.jpg",
-            "post" :"treasurer"
+            "image":"/images/Aswin.jpeg",
+            "post" :"Secretary"
+        },
+        {
+            "image":"/images/naveen.jpg",
+            "post" :"Treasurer"
         }
     ],
     "2018" : [

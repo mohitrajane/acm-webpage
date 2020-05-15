@@ -34,7 +34,7 @@ class contents extends Component{
                     </div>
                     {/*this div is for the bottom button */}
                     <div className="button rounded flex justify-center pb-4">
-                        <button className="bg-gray-200 text-black rounded p-2 h-16 w-24" ><a href="https://www.acm.org/membership/join">Join Here</a></button>   
+                        <button className="bg-gray-200 text-black rounded p-3" ><a href="https://docs.google.com/forms/d/e/1FAIpQLScNwhsLm_jtOpGKV4UxWSUsE2v1Q7fL_MK3cAzJTYBa71jLAQ/viewform?usp=sf_link">Join Here</a></button>   
                     </div>
                 </div> 
                 {/*Details about the present members with their numbers and name*/}
