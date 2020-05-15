@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+import './contents.css'
 import Man from './images/man.svg';
 import Phone from './images/phone.svg';
+import Mohit from './images/mohit.jpg'
 import logo from './images/Acmlogo.jpeg';
-import {FiInstagram} from 'react-icons/fi';
+import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
+
 
 class contents extends Component{
     render(){
@@ -51,25 +54,80 @@ class contents extends Component{
                 <div class="py-4 lg:flex flex-wrap">
 
                     {/*Acm directives contact*/}
-                        <div className="lg:w-full flex">
-                            {/* <h1 class="flex justify-center text-2xl">Contact Us</h1>
-                            <p class="py-3 flex justify-center"><img src={Man}/>Yadhu Krishnan(Chairman) <img src={Phone}/>828-153-7729</p>
-                            <p class="py-3 flex justify-center"><img src={Man}/>Aswin S (Secretary) <img src={Phone}/>8281502849</p>
-                            <p class="py-3 flex justify-center"><img src={Man}/>Visrutha Aruhnthathi(Vice Chairman) <img src={Phone}/>9495497126</p>
-                            <p class="py-3 flex justify-center"><img src={Man}/>Naveen B Jacob(Tresurer) <img src={Phone}/>8606330293</p> */}
-                        <div>
-                            <img src='' alt="chairman"></img>
-                            <div className="rounded-full"> test</div>
+                    <h1 class=" flex justify-center text-2xl my-5">Contact Us</h1>
+                    <div className="lg:w-full flex flex-col sm:flex-row items-center justify-center">
+                        <div className="flex px-4 mx-4 flex-col text-center justify-between h-full w-full main-test" style={{backgroundImage:`url(${Mohit})`}}>
+                            <div>
+                                <p className="mt-12 font-bold ">Mohit Rajan E</p>
+                                <p className="mt-2">Chairman</p>
+                            </div>
+                            <div className="mb-12 font-light">
+                                <div className="flex justify-center my-2">
+                                    <a href="http://linkden.com" target='__blank'><FaLinkedinIn className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    <a href="http://github.com" target='__blank'><FaGithub className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    
+                                </div>
+                                <p>+91 9037 969 499</p>
+                            </div>
                         </div>
-                        <div>
-                            <img src='' alt="Staff incharge"></img>
-                            <div className="rounded-full"> Miss</div>
+                        <div className="flex px-4 mx-4 flex-col text-center justify-between h-full w-full main-test" style={{backgroundImage:`url(${Mohit})`}}>
+                            <div>
+                                <p className="mt-12 font-bold ">Mohit Rajan E</p>
+                                <p className="mt-2">Chairman</p>
+                            </div>
+                            <div className="mb-12 font-light">
+                                <div className="flex justify-center my-2">
+                                    <a href="http://linkden.com" target='__blank'><FaLinkedinIn className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    <a href="http://github.com" target='__blank'><FaGithub className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    
+                                </div>
+                                <p>+91 9037 969 499</p>
+                            </div>
                         </div>
-                        <div>
-                            <img src='' alt="vice chair"></img>
-                            <div className="rounded-full"> vice</div>
+                        <div className="flex px-4 mx-4 flex-col text-center justify-between h-full w-full main-test" style={{backgroundImage:`url(${Mohit})`}}>
+                            <div>
+                                <p className="mt-12 font-bold ">Mohit Rajan E</p>
+                                <p className="mt-2">Chairman</p>
+                            </div>
+                            <div className="mb-12 font-light">
+                                <div className="flex justify-center my-2">
+                                    <a href="http://linkden.com" target='__blank'><FaLinkedinIn className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    <a href="http://github.com" target='__blank'><FaGithub className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    
+                                </div>
+                                <p>+91 9037 969 499</p>
+                            </div>
                         </div>
+                        <div className="flex px-4 mx-4 flex-col text-center justify-between h-full w-full main-test" style={{backgroundImage:`url(${Mohit})`}}>
+                            <div>
+                                <p className="mt-12 font-bold ">Mohit Rajan E</p>
+                                <p className="mt-2">Chairman</p>
+                            </div>
+                            <div className="mb-12 font-light">
+                                <div className="flex justify-center my-2">
+                                    <a href="http://linkden.com" target='__blank'><FaLinkedinIn className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    <a href="http://github.com" target='__blank'><FaGithub className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    
+                                </div>
+                                <p>+91 9037 969 499</p>
+                            </div>
                         </div>
+                                                <div className="flex px-4 mx-4 flex-col text-center justify-between h-full w-full main-test" style={{backgroundImage:`url(${Mohit})`}}>
+                            <div>
+                                <p className="mt-12 font-bold ">Mohit Rajan E</p>
+                                <p className="mt-2">Chairman</p>
+                            </div>
+                            <div className="mb-12 font-light">
+                                <div className="flex justify-center my-2">
+                                    <a href="http://linkden.com" target='__blank'><FaLinkedinIn className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    <a href="http://github.com" target='__blank'><FaGithub className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    
+                                </div>
+                                <p>+91 9037 969 499</p>
+                            </div>
+                        </div>
+    
+                    </div>
                 </div>
 
             </div>
