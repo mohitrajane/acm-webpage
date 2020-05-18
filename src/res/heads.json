@@ -1,0 +1,23 @@
+{
+    "2019" : [
+        {   
+            "image":"/images/yadhu.jpeg",
+            "post" :"Chairman"
+        },
+        {
+            "image":"/images/devu.jpg",
+            "post" :"Vice Chair"
+        },
+        {
+            "image":"/images/Aswin.jpeg",
+            "post" :"Secretary"
+        },
+        {
+            "image":"/images/naveen.jpg",
+            "post" :"Treasurer"
+        }
+    ],
+    "2018" : [
+        
+    ]
+}

@@ -9,7 +9,7 @@ const Navbar = () =>{
         <nav className="flex items-center justify-between flex-wrap bg-gray-100 text-blue-600 p-2 lg:fixed lg:w-full lg:top-0">
             <Link to="/">
                 <div className="flex items-center flex-shrink-0 mr-6">
-                    <img class="h-16 w-16 mx-4 mt-4" src={logo}/>
+                    <img className="h-16 w-16 mx-4 mt-4" src={logo} alt="logo"/>
                 </div>
             </Link>
             <div className="block lg:hidden">
@@ -23,15 +23,14 @@ const Navbar = () =>{
                     <Link to="event" className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
                         Events
                     </Link>
-                    <a href="https://www.acm.org/membership/join" className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScNwhsLm_jtOpGKV4UxWSUsE2v1Q7fL_MK3cAzJTYBa71jLAQ/viewform?usp=sf_link" className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
                         Membership
                     </a>
-                    <Link to="gallery" className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
-                        gallery
-                    </Link>
                     <Link to="/People" className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
                         People
                     </Link>
+
+
                    
                     </div>
                  </div>
