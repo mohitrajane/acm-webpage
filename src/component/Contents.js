@@ -53,10 +53,10 @@ class contents extends Component{
                     {/*Acm directives contact*/}
                         <div className="lg:w-full">
                             <h1 className="flex justify-center text-2xl">Contact Us</h1>
-                            <p className="py-3 flex justify-center"><img src={Man} alt="man png"/>Yadhu Krishnan(Chairman) <img src={Phone} alt="phone png"/>828-153-7729</p>
-                            <p className="py-3 flex justify-center"><img src={Man} alt="man png"/>Aswin S (Secretary) <img src={Phone} alt="phone png"/>8281502849</p>
-                            <p className="py-3 flex justify-center"><img src={Man} alt="man png"/>Visrutha Aruhnthathi(Vice Chairman) <img src={Phone} alt="phone png"/>9495497126</p>
-                            <p className="py-3 flex justify-center"><img src={Man} alt="man png"/>Naveen B Jacob(Tresurer) <img src={Phone} alt="phone png"/>8606330293</p>
+                            <p className="py-3 flex justify-center"><img src={Man} alt="man png"/>Yadhu Krishnan(Chairman) <img className="pl-4" src={Phone} alt="phone png"/>828-153-7729</p>
+                            <p className="py-3 flex justify-center"><img src={Man} alt="man png"/>Aswin S (Secretary) <img className="pl-4" src={Phone} alt="phone png"/>8281502849</p>
+                            <p className="py-3 flex justify-center"><img src={Man} alt="man png"/>Visrutha Aruhnthathi(Vice Chairman) <img className="pl-4" src={Phone} alt="phone png"/>9495497126</p>
+                            <p className="py-3 flex justify-center"><img src={Man} alt="man png"/>Naveen B Jacob(Tresurer) <img className="pl-4" src={Phone} alt="phone png"/>8606330293</p>
 
                         </div>
                 </div>
