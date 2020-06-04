@@ -8,5 +8,5 @@ stages:
 test:
   stages: test
   script:
-    -yarn
-    -CI=true yarn test
+    -npm
+    -CI=true npm test
