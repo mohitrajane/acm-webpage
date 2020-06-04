@@ -8,5 +8,5 @@ stages:
 test:
   stages: test
   script:
-    -npm
+    -npm install
     -CI=true npm test
