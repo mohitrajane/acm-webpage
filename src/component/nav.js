@@ -26,9 +26,6 @@ const Navbar = () =>{
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLScNwhsLm_jtOpGKV4UxWSUsE2v1Q7fL_MK3cAzJTYBa71jLAQ/viewform?usp=sf_link" className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
                         Membership
                     </a>
-                    <Link to="gallery" className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
-                        gallery
-                    </Link>
                     <Link to="/People" className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
                         People
                     </Link>
