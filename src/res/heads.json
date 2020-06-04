@@ -1,23 +1,74 @@
 {
     "2019" : [
-        {   
-            "image":"/images/yadhu.jpeg",
+        {   "key":1,
+            "image":"/images/devu.jpg",
             "post" :"Chairman"
         },
         {
+            "key":2,
             "image":"/images/devu.jpg",
             "post" :"Vice Chair"
         },
         {
-            "image":"/images/Aswin.jpeg",
+            "key":3,
+            "image":"/images/aswin.jpeg",
             "post" :"Secretary"
         },
         {
-            "image":"/images/naveen.jpg",
+            "key":4,
+            "image":"/images/naveen.jpeg",
             "post" :"Treasurer"
         }
     ],
     "2018" : [
-        
+        {
+            "key":1,
+            "image":"",
+            "post":"Chairman"
+        },
+        {
+            "key":2,
+            "image":"",
+            "post":"Vice Chairman"
+        },
+        {
+            "key":3,
+            "image":"",
+            "post":"Treasurer"
+        }
+    ],
+    "2017":[
+        {
+            "key":1,
+            "image":"",
+            "post":"Chairman"
+        },
+        {
+            "key":2,
+            "image":"",
+            "post":"Vice Chairman"
+        },
+        {
+            "key":3,
+            "image":"",
+            "post":"Treasurer"
+        }
+    ],
+    "2016":[
+        {
+            "key":1,
+            "image":"",
+            "post":"Chairman"
+        },
+        {
+            "key":2,
+            "image":"",
+            "post":"Vice Chairman"
+        },
+        {
+            "key":3,
+            "image":"",
+            "post":"Treasurer"
+        }
     ]
 }

@@ -1,62 +1,50 @@
-import React,{useState} from 'react';
+import React, {useState} from 'react';
 import headDetails from '../res/heads.json';
 import {AiOutlineArrowLeft,AiOutlineArrowRight} from 'react-icons/ai';
 
-
-export default function Head(props){
-    var years = Object.keys(headDetails).reverse();
-    for(var i=0; i<years.length;i++) years[i] = +years[i];
-    var date = parseInt(new Date(Date.now()).toLocaleString().split(',')[0].split('/')[2]);
-    const [startYear,setcurrentYear] = useState(date-1);
-    const len = years.length;
-    const presentYear = years[0];
-    const lastYear = years[len-1];
-    function checkRight(){
-        if(startYear===lastYear)
-            document.getElementById('incrementer').style.visibility = 'hidden';  
+export default function Heads(){
+//the variable dates store the all the keys of the json headDetails..
+// var dates = Object.keys(headDetails).reverse().map(Number);
+//this var presentYear store the current year
+var presentYear = parseInt(new Date(Date.now()).toLocaleString().split(',')[0].split('/')[2]); 
+//the changeYear will be changed on the basis of the button press.
+const [changeYear, setChangeYear] = useState(presentYear-1);
+//function to change the changeYear value.
+function decrement(){
+    if(changeYear===2016){
+        document.getElementById('decrementer').style.visibility = 'hidden';
     }
-    function checkLeft(){
-        if(startYear===presentYear)
-            document.getElementById('decrementer').style.visibility = 'hidden'; 
+    else{
+        setChangeYear(changeYear-1);
+        document.getElementById('decrementer').style.visibility = 'visible';
+        document.getElementById('incrementer').style.visibility = 'visible';
     }
-
-    function decrement()
-    {
-        if(years.includes(startYear-1)){
-            setcurrentYear(startYear-1);
-            document.getElementById('incrementer').style.visibility = 'visible';
-            document.getElementById("decrementer").style.visibility = 'visible';
-            checkLeft();
-        }
-        else
-            document.getElementById("decrementer").style.visibility = 'hidden';
+}
+function increment(){
+    if(changeYear===presentYear-1){
+        document.getElementById('incrementer').style.visibility = 'hidden';
     }
-    function increment()
-    {
-        if(years.includes(startYear+1)){
-            setcurrentYear(startYear+1);
-            document.getElementById('incrementer').style.visibility = 'visible';
-            document.getElementById("decrementer").style.visibility = 'visible';
-            checkRight();
-        }
-        else
-            document.getElementById('incrementer').style.visibility = 'hidden';
+    else{
+        setChangeYear(changeYear+1);
+        document.getElementById('decrementer').style.visibility = 'visible';
+        document.getElementById('incrementer').style.visibility = 'visible';
     }
+}
     return(
-        <div className = "text-center p-1">
-        
-            <p>{startYear}</p>
-            <div className = "flex justify-center">
-                <button className = "decrementer" id = "decrementer" onClick = {decrement}><AiOutlineArrowLeft/></button>
-                    {headDetails[startYear].map(events=>(
-                        <div className="p-2">
-                            <img className="w-24" src = {events.image} alt = "heads"/>
-                            <p>{events.post}</p>
+        //this is the main div
+        <div className="text-center p-1">
+            <h1 className='underline'>{changeYear}</h1>
+            <div className="flex justify-center">
+                <button onClick={decrement} id='decrementer'><AiOutlineArrowLeft/></button>
+                {   //to get all the values in key variable of the json.
+                    headDetails[changeYear].map(item=>(
+                        <div className='p-2' key={item.key}>
+                            <img className="w-24" src={item.image} alt="heads"/>
+                            <p>{item.post}</p>
                         </div>
-                    ))}
-
-
-                <button className="incrementer" id="incrementer" onClick={increment}><AiOutlineArrowRight/></button>
+                    ))
+                }
+                <button onClick={increment} id='incrementer'><AiOutlineArrowRight/></button>
             </div>
         </div>
     );
