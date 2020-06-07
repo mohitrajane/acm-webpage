@@ -5,7 +5,7 @@ import Man from './images/man.svg';
 class Footer extends Component{
     render(){
         return(
-            <div className="footer">
+            <div className="footer ">
                 <div className="min-h-24 py-8 bg-blue-600 text-white text-xl">
                     <h5 className="flex justify-center">Copyright ©ACMFISAT</h5>
                     <h5 className="flex justify-center">Made with <AiFillHeart/> via tailwindcss</h5>
