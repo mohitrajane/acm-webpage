@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/acm-webpage/static/css/main.5cf02fa1.chunk.css",
+    "main.js": "/acm-webpage/static/js/main.e400d2f4.chunk.js",
+    "main.js.map": "/acm-webpage/static/js/main.e400d2f4.chunk.js.map",
+    "runtime-main.js": "/acm-webpage/static/js/runtime-main.f3c1e8d0.js",
+    "runtime-main.js.map": "/acm-webpage/static/js/runtime-main.f3c1e8d0.js.map",
+    "static/js/2.15f198d0.chunk.js": "/acm-webpage/static/js/2.15f198d0.chunk.js",
+    "static/js/2.15f198d0.chunk.js.map": "/acm-webpage/static/js/2.15f198d0.chunk.js.map",
+    "index.html": "/acm-webpage/index.html",
+    "precache-manifest.0f5757774201cd0fa965fd8e1cfc65fc.js": "/acm-webpage/precache-manifest.0f5757774201cd0fa965fd8e1cfc65fc.js",
+    "service-worker.js": "/acm-webpage/service-worker.js",
+    "static/css/main.5cf02fa1.chunk.css.map": "/acm-webpage/static/css/main.5cf02fa1.chunk.css.map",
+    "static/js/2.15f198d0.chunk.js.LICENSE.txt": "/acm-webpage/static/js/2.15f198d0.chunk.js.LICENSE.txt",
+    "static/media/Acmlogo.jpeg": "/acm-webpage/static/media/Acmlogo.e9888737.jpeg",
+    "static/media/logo.png": "/acm-webpage/static/media/logo.6d7fe362.png",
+    "static/media/man.svg": "/acm-webpage/static/media/man.4306a5b8.svg",
+    "static/media/phone.svg": "/acm-webpage/static/media/phone.f3b7d629.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3c1e8d0.js",
+    "static/js/2.15f198d0.chunk.js",
+    "static/css/main.5cf02fa1.chunk.css",
+    "static/js/main.e400d2f4.chunk.js"
+  ]
+}
