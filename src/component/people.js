@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Heads   from './Heads';
 import Peoplejs from '../res/people.json';
-import {AiFillGitlab,AiFillLinkedin} from 'react-icons/ai';
+import {AiFillLinkedin} from 'react-icons/ai';
 
 class People extends Component{
     render(){
