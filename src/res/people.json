@@ -1,17 +1,17 @@
 [
     {   "key":1,
-        "image":"images/rohit.jpg",
+        "image":"images/rohit.jpeg",
         "name":"Rohit Narayanan",
         "linkedin":"https://www.linkedin.com/in/rohit-narayanan-b65631145/"
     },
     {   "key":2,
-        "image":"images/anand.jpg",
+        "image":"images/anand.jpeg",
         "name":"Anand Jagadeesh",
         "linkedin":"https://www.linkedin.com/in/anandjagadeesh/"
     },
     {
         "key":3,
-        "image":"images/mohit.jpg",
+        "image":"images/mohit.jpeg",
         "name":"Mohit Rajan E",
         "linkedin":"https://www.linkedin.com/in/mohit-rajan-e-756412160/"
     },
@@ -23,7 +23,7 @@
     },
     {
         "key":5,
-        "image":"images/leo.png",
+        "image":"images/leo.jpeg",
         "name":"Leo Varghese",
         "linkedin":"https://www.linkedin.com/in/leo-varghese-578b13147/ "
     },
@@ -42,12 +42,12 @@
     {
         "key":8,
         "image":"images/yedin.jpeg",
-        "name":"Yedhin Kizhakkethara",
+        "name":"Yedhin K",
         "linkedin":"https://www.linkedin.com/in/yedhin1998/"
     },
     {
         "key":9,
-        "image":"images/alen.jpg",
+        "image":"images/alen.jpeg",
         "name":"Alan Loovees",
         "linkedin":"https://www.linkedin.com/in/alan-loovees-472916169/"
     },
@@ -59,13 +59,13 @@
     },
     {
         "key":11,
-        "image":"images/deepak.jpg",
+        "image":"images/deepak.jpeg",
         "name":"Deepak Fletcher",
         "linkedin":"https://www.linkedin.com/in/deepak-fletcher-ab8bb3193/"
     },
     {
         "key":12,
-        "image":"images/devu.jpg",
+        "image":"images/devu.jpeg",
         "name":"Devu R Kurup",
         "linkedin":"https://www.linkedin.com/in/devu-r-kurup-729bb418a/"
     },
@@ -77,7 +77,7 @@
     },
     {
         "key":12,
-        "image":"images/paul.jpg",
+        "image":"images/paul.jpeg",
         "name":"Paul Elias Sojan",
         "linkedin":"https://www.linkedin.com/in/paul-elias-sojan/"
     }
