@@ -21,7 +21,7 @@ class People extends Component{
                     Peoplejs.map(item=>(
                         <div className="md:px-2 py-2 lg:px-2 py-2 w-64">
                     <div className="max-w-sm rounded overflow-hidden bg-gray-100 shadow-lg">
-                        <img className="w-full" src={item.image} alt={item.name}/>
+                        <img className="w-full" src={process.env.PUBLIC_URL+item.image} alt={item.name}/>
                         <div className="px-6 py-4">
                             <div className="font-bold text-xl mb-2">{item.name}</div>
 
