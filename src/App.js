@@ -1,12 +1,12 @@
 import React,{ useState } from 'react';
 import './output.css';
 import logo from './component/images/logo.png';
-import {BrowserRouter as Router,Switch,Route,Link} from 'react-router-dom';
+import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
 import MainPage from "./component/Contents";
 import People from "./component/people";
 import Events from "./component/event";
 import Footer from "./component/footer";
-
+import Images from "./component/images";
 export default function App(){
     const [isOpen, setIsOpen] = useState(window.innerWidth <= 640 ? false : true);
   return(
@@ -28,6 +28,9 @@ export default function App(){
                     <Link to="/event" className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
                         Events
                     </Link>
+                    <Link to="/images" className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
+                        Images
+                    </Link>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLScNwhsLm_jtOpGKV4UxWSUsE2v1Q7fL_MK3cAzJTYBa71jLAQ/viewform?usp=sf_link" className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
                         Membership
                     </a>
@@ -40,7 +43,7 @@ export default function App(){
             }
         </nav>
         <div>
-        <Switch>
+
           <div className="mt-24">
             <Route exact path="/">
               <MainPage/>
@@ -51,8 +54,11 @@ export default function App(){
             <Route path="/people">
               <People/>
             </Route>
+            <Route>
+              <Images/>
+            </Route>
           </div>
-        </Switch>
+
         </div>
         <Footer/>
     </Router>

@@ -29,7 +29,7 @@ class contents extends Component{
                         <p className="lg:px-32 py-6 flex text-lg justify-center">ACM Students Chapter FISAT is the biggest Computer Science Students Chapter in FISAT.
                         It even consist a group where use can ask and clarify your doubts or even others doubts as well. The group even consist of teaching faculty
                         where even they are willing to help and guide you through your various doubts and even helps in your projects. We are always ready to help you.
-                        To join in our community use the buton given below.</p>
+                        To join in our community use the button given below.</p>
                         </div>
                     </div>
                     {/*this div is for the bottom button */}
