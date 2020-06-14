@@ -5,79 +5,73 @@
         "linkedin":"https://www.linkedin.com/in/rohit-narayanan-b65631145/"
     },
     {   "key":2,
-        "image":"images/anand.jpeg",
+        "image":"/images/anand.jpeg",
         "name":"Anand Jagadeesh",
         "linkedin":"https://www.linkedin.com/in/anandjagadeesh/"
     },
     {
         "key":3,
-        "image":"images/mohit.jpeg",
+        "image":"/images/mohit.jpeg",
         "name":"Mohit Rajan E",
         "linkedin":"https://www.linkedin.com/in/mohit-rajan-e-756412160/"
     },
     {
         "key":4,
-        "image":"images/bryan.jpeg",
+        "image":"/images/bryan.jpeg",
         "name":"Bryan Davis",
         "linkedin":"https://www.linkedin.com/in/the-bryan-davis/"
     },
     {
         "key":5,
-        "image":"images/leo.jpeg",
+        "image":"/images/leo.jpeg",
         "name":"Leo Varghese",
         "linkedin":"https://www.linkedin.com/in/leo-varghese-578b13147/ "
     },
     {
         "key":6,
-        "image":"images/nandhini.jpeg",
+        "image":"/images/nandhini.jpeg",
         "name":"Nandini Menon",
         "linkedin":"https://www.linkedin.com/in/nandinimenon/"
     },
     {
         "key":7,
-        "image":"images/sandeep.jpeg",
+        "image":"/images/sandeep.jpeg",
         "name":"Sandeep Ramesh",
         "linkedin":"https://www.linkedin.com/in/sandeep-ramesh-47432815a/"
     },
     {
         "key":8,
-        "image":"images/yedin.jpeg",
+        "image":"/images/yedin.jpeg",
         "name":"Yedhin K",
         "linkedin":"https://www.linkedin.com/in/yedhin1998/"
     },
     {
         "key":9,
-        "image":"images/alen.jpeg",
-        "name":"Alan Loovees",
-        "linkedin":"https://www.linkedin.com/in/alan-loovees-472916169/"
-    },
-    {
-        "key":10,
-        "image":"images/aswin.jpeg",
+        "image":"/images/aswin.jpeg",
         "name":"Aswin S",
         "linkedin":"https://www.linkedin.com/in/aswin-s-175373180/"
     },
     {
-        "key":11,
-        "image":"images/deepak.jpeg",
+        "key":10,
+        "image":"/images/deepak.jpeg",
         "name":"Deepak Fletcher",
         "linkedin":"https://www.linkedin.com/in/deepak-fletcher-ab8bb3193/"
     },
     {
-        "key":12,
-        "image":"images/devu.jpeg",
+        "key":11,
+        "image":"/images/devu.jpeg",
         "name":"Devu R Kurup",
         "linkedin":"https://www.linkedin.com/in/devu-r-kurup-729bb418a/"
     },
     {
-        "key":13,
-        "image":"images/naveen.jpeg",
+        "key":12,
+        "image":"/images/naveen.jpeg",
         "name":"Naveen B Jacob",
         "linkedin":"https://www.linkedin.com/in/naveen-b-jacob-229a81182/"
     },
     {
-        "key":12,
-        "image":"images/paul.jpeg",
+        "key":13,
+        "image":"/images/paul.jpeg",
         "name":"Paul Elias Sojan",
         "linkedin":"https://www.linkedin.com/in/paul-elias-sojan/"
     }
