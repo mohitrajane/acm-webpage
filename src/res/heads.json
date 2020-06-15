@@ -1,22 +1,22 @@
 {
     "2019" : [
         {   "key":1,
-            "image":"images/devu.jpeg",
+            "image":"/images/devu.jpeg",
             "post" :"Chairman"
         },
         {
             "key":2,
-            "image":"images/devu.jpeg",
+            "image":"/images/devu.jpeg",
             "post" :"Vice Chair"
         },
         {
             "key":3,
-            "image":"images/aswin.jpeg",
+            "image":"/images/aswin.jpeg",
             "post" :"Secretary"
         },
         {
             "key":4,
-            "image":"images/naveen.jpeg",
+            "image":"/images/naveen.jpeg",
             "post" :"Treasurer"
         }
     ],

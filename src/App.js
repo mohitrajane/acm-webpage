@@ -43,14 +43,11 @@ export default function App(){
         <div>
 
           <div className="mt-24">
-            <Route exact path={`${process.env.PUBLIC_URL}/`}>
-              <MainPage/>
+            <Route exact path={`${process.env.PUBLIC_URL}/`} component={MainPage}>
             </Route>
-            <Route path={`${process.env.PUBLIC_URL}/event`}>
-              <Events/>
+            <Route path={`${process.env.PUBLIC_URL}/event`} component={Event}>
             </Route>
-            <Route path={`${process.env.PUBLIC_URL}/people`}>
-              <People/>
+            <Route path={`${process.env.PUBLIC_URL}/people`} component={People}>
             </Route>
 
           </div>
