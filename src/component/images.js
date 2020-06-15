@@ -1,11 +1,11 @@
 import React from "react";
-import Image from "../res/images.json";
+// import Image from "../res/images.json";
 
 
 export default function Images(){
     return(
         <div>
-            {    
+            {/* {    
             Object.keys(Image).reverse().map(function(key){
                 Image[key].map(item=>(
                     <div className='p-2' key={item.key}>
@@ -13,7 +13,7 @@ export default function Images(){
                     <p>{item.post}</p>
                 </div>
                 ))
-            })}
+            })} */}
         </div>
     );
 }
