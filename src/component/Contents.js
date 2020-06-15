@@ -38,16 +38,6 @@ class contents extends Component{
                     </div>
                 </div> 
                 {/*Details about the present members with their numbers and name*/}
-                <div className="py-4">
-                    <div className="flex justify-center heading py-3">
-                        <h1>
-                            THANKS FOR VISITING US
-                        </h1>
-                    </div>
-                    <div className="flex justify-center">
-                        <hr className="w-64 border-2"/>
-                    </div>
-                </div>
                 <div className="py-4 lg:flex flex-wrap">
 
                     {/*Acm directives contact*/}
