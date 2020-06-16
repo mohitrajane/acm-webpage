@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "homepage": "https://naveenbjacob/github.io/acm-webpage/",
-=======
-  "homepage": ".",
->>>>>>> ef509fc56bf036312299b99367c92f715ed455b2
+  "homepage": "https://naveenbjacob.github.io/acm-webpage/",
   "name": "acm-webpage",
   "version": "0.1.0",
   "private": true,
