@@ -45,7 +45,7 @@ export default function App(){
           <div className="mt-24">
             <Route exact path={`/`} component={MainPage}>
             </Route>
-            <Route path={`/event`} component={Event}>
+            <Route path={`/event`} component={Events}>
             </Route>
             <Route path={`/people`} component={People}>
             </Route>
