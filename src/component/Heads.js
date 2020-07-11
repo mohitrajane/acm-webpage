@@ -39,7 +39,7 @@ function increment(){
                 {   //to get all the values in key variable of the json.
                     headDetails[changeYear].map(item=>(
                         <div className='p-2' key={item.key}>
-                            <img className="w-24" src={item.image} alt="heads"/>
+                            <img className="w-24" src={process.env.PUBLIC_URL+item.image} alt="heads"/>
                             <p>{item.post}</p>
                         </div>
                     ))
