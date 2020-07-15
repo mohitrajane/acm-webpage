@@ -10,9 +10,9 @@ class People extends Component{
 
             {/*heading*/}
             <div>
-            <p className="flex justify-center text-2xl text-blue">ACM heads of the respective years</p>
+            <p className="flex justify-center text-2xl text-blue text-center">ACM heads of the respective years</p>
             <Heads/>
-            <p className="flex justify-center text-xl text-blue">People stood up with ACM no matter what
+            <p className="flex justify-center text-xl text-blue text-center">People stood with ACM no matter what
             </p>
             </div>
             {/*---------------------------------------For the people cards----------------------------------------------------*/}
@@ -22,7 +22,7 @@ class People extends Component{
                         <div className="md:px-2 py-2 lg:px-2 py-2 w-64">
                     <div className="max-w-sm rounded overflow-hidden bg-gray-100 shadow-lg">
                         <img className="w-full" src={process.env.PUBLIC_URL+item.image} alt={item.name}/>
-                        <div className="px-6 py-4">
+                        <div className="text-center py-2">
                             <div className="font-bold text-xl mb-2">{item.name}</div>
 
                         </div>

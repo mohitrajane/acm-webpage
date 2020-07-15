@@ -1,0 +1,26 @@
+.hover-overlay{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    opacity: 0;
+    width:inherit;
+    height: inherit;
+}
+
+.hover-overlay:hover{
+    background-color: sienna;
+    opacity: 1;
+}
+.main-test{
+    /* background-image: url('images/mohit.jpg'); */
+    background-size: cover;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 9999px;
+    color:transparent;
+}
+.main-test:hover, .main-test:focus, .main-test:active{
+    background-image: none !important;
+    background-color: #3182ce;
+    color: white;
+}
