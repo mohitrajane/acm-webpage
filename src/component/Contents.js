@@ -43,19 +43,21 @@ class contents extends Component{
 
                     {/*Acm directives contact*/}
                     <div className="flex justify-center item-center w-full"><h1 className="text-2xl my-5">Contact Us</h1></div>
-                    <div className="lg:w-full flex flex-col sm:flex-row items-center justify-center">
+                    <div className="md:flex-wrap lg:w-full flex flex-col sm:flex-row items-center justify-center">
                         {Present.map(item=>(
-                            <div className="flex px-4 mx-4 flex-col text-center justify-between h-full w-full main-test" style={{backgroundImage:`url(${process.env.PUBLIC_URL+item.image})`}}>
-                                <div>
-                                    <p className="mt-12 font-bold ">{item.name}</p>
-                                    <p className="mt-2">{item.post}</p>
-                                </div>
-                                <div className="mb-12 font-light">
-                                    <div className="flex justify-center my-2">
-                                        <a href="http://linkden.com" target='__blank'><FaLinkedinIn className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
-                                        <a href="http://github.com" target='__blank'><FaGithub className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                            <div className="py-2">
+                                <div className="flex px-4 mx-4 flex-col text-center justify-between h-full w-full main-test" style={{backgroundImage:`url(${process.env.PUBLIC_URL+item.image})`}}>
+                                    <div>
+                                        <p className="mt-12 font-bold ">{item.name}</p>
+                                        <p className="mt-2">{item.post}</p>
                                     </div>
-                                <p>{item.mobile}</p>
+                                    <div className="mb-12 font-light">
+                                        <div className="flex justify-center my-2">
+                                            <a href="http://linkden.com" target='__blank'><FaLinkedinIn className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                            <a href="http://github.com" target='__blank'><FaGithub className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                        </div>
+                                    <p>{item.mobile}</p>
+                                    </div>
                                 </div>
                             </div>
                         ))
