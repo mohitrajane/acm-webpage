@@ -6,7 +6,7 @@ import MainPage from "./component/Contents";
 import People from "./component/people";
 import Events from "./component/event";
 import Footer from "./component/footer";
-import Images from "./component/images";
+import Registration from './component/registration';
 export default function App(){
     const [isOpen, setIsOpen] = useState(window.innerWidth <= 640 ? false : true);
   return(
@@ -28,10 +28,12 @@ export default function App(){
                     <Link to={`/event`} className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
                         Events
                     </Link>
-
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScNwhsLm_jtOpGKV4UxWSUsE2v1Q7fL_MK3cAzJTYBa71jLAQ/viewform?usp=sf_link" className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
+                    <Link to={`/registration`} className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
+                    Membership
+                    </Link>
+                    {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLScNwhsLm_jtOpGKV4UxWSUsE2v1Q7fL_MK3cAzJTYBa71jLAQ/viewform?usp=sf_link" className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
                         Membership
-                    </a>
+                    </a> */}
                     <Link to={`/people`} className="block mt-4 lg:inline-block lg:mt-0 mr-4 hover:text-blue-800">
                         People
                     </Link>
@@ -49,7 +51,8 @@ export default function App(){
             </Route>
             <Route path={`/people`} component={People}>
             </Route>
-
+            <Route path={`/registration`} component={Registration}>
+            </Route>
           </div>
 
         </div>
