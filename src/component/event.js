@@ -17,12 +17,12 @@ class event extends Component{
     }
     render(){
         return(
-            <div className="py-4">
+            <div className="">
                 <div className="py-3 flex justify-center">
                     <table className="table-fixed shadow-lg">
                         <thead className="py-2 bg-gray-200">
                             <tr>
-                            <th className="w-1/4"></th>
+                            <th className="w-1/6"></th>
                             <th className=" mx-auto w-full justify-center p-4 inline-flex">
                                 {
                                     this.state.years.map((item) =>(
@@ -43,7 +43,7 @@ class event extends Component{
                              {eventsData[this.state.currentYear].map(event =>(
                                  // pseudo class not working i.e even iel no background color change
                                 <tr className="even:bg-gray-200">
-                                    <td className="px-6 py-2 font-light  tracking-wider">{event.date}</td>
+                                    <td className="px-2 py-2 font-light  tracking-wider">{event.date}</td>
                                     <td className="p-2">{event.name}</td>
                                 </tr>
                             ))}

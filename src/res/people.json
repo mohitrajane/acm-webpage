@@ -10,6 +10,12 @@
         "linkedin":"https://www.linkedin.com/in/anandjagadeesh/"
     },
     {
+        "key":14,
+        "image":"/images/lakshmi.jpeg",
+        "name":"Lakshmi AS",
+        "linkedin":"https://www.linkedin.com/in/anandjagadeesh/"
+    },
+    {
         "key":3,
         "image":"/images/mohit.jpeg",
         "name":"Mohit Rajan E",
@@ -61,6 +67,12 @@
         "key":11,
         "image":"/images/devu.jpeg",
         "name":"Devu R Kurup",
+        "linkedin":"https://www.linkedin.com/in/devu-r-kurup-729bb418a/"
+    },
+    {
+        "key":15,
+        "image":"/images/visrutha.jpeg",
+        "name":"Visrutha Arunthathi",
         "linkedin":"https://www.linkedin.com/in/devu-r-kurup-729bb418a/"
     },
     {
