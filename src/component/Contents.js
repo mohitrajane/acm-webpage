@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import './contents.css'
 import Man from './images/man.svg';
 import Phone from './images/phone.svg';
+import Mohit from './images/mohit.jpg'
 import logo from './images/Acmlogo.jpeg';
+import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 
 
 class contents extends Component{
@@ -41,14 +44,80 @@ class contents extends Component{
                 <div className="py-4 lg:flex flex-wrap">
 
                     {/*Acm directives contact*/}
-                        <div className="lg:w-full">
-                            <h1 className="flex justify-center text-2xl">Contact Us</h1>
-                            <p className="py-3 flex justify-center"><img src={Man} alt="man png"/>Yadhu Krishnan(Chairman) <img className="pl-4" src={Phone} alt="phone png"/>828-153-7729</p>
-                            <p className="py-3 flex justify-center"><img src={Man} alt="man png"/>Aswin S (Secretary) <img className="pl-4" src={Phone} alt="phone png"/>8281502849</p>
-                            <p className="py-3 flex justify-center"><img src={Man} alt="man png"/>Visrutha Aruhnthathi(Vice Chairman) <img className="pl-4" src={Phone} alt="phone png"/>9495497126</p>
-                            <p className="py-3 flex justify-center"><img src={Man} alt="man png"/>Naveen B Jacob(Tresurer) <img className="pl-4" src={Phone} alt="phone png"/>8606330293</p>
-
+                    <h1 class=" flex justify-center text-2xl my-5">Contact Us</h1>
+                    <div className="lg:w-full flex flex-col sm:flex-row items-center justify-center">
+                        <div className="flex px-4 mx-4 flex-col text-center justify-between h-full w-full main-test" style={{backgroundImage:`url(${Mohit})`}}>
+                            <div>
+                                <p className="mt-12 font-bold ">Mohit Rajan E</p>
+                                <p className="mt-2">Chairman</p>
+                            </div>
+                            <div className="mb-12 font-light">
+                                <div className="flex justify-center my-2">
+                                    <a href="http://linkden.com" target='__blank'><FaLinkedinIn className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    <a href="http://github.com" target='__blank'><FaGithub className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    
+                                </div>
+                                <p>+91 9037 969 499</p>
+                            </div>
                         </div>
+                        <div className="flex px-4 mx-4 flex-col text-center justify-between h-full w-full main-test" style={{backgroundImage:`url(${Mohit})`}}>
+                            <div>
+                                <p className="mt-12 font-bold ">Mohit Rajan E</p>
+                                <p className="mt-2">Chairman</p>
+                            </div>
+                            <div className="mb-12 font-light">
+                                <div className="flex justify-center my-2">
+                                    <a href="http://linkden.com" target='__blank'><FaLinkedinIn className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    <a href="http://github.com" target='__blank'><FaGithub className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    
+                                </div>
+                                <p>+91 9037 969 499</p>
+                            </div>
+                        </div>
+                        <div className="flex px-4 mx-4 flex-col text-center justify-between h-full w-full main-test" style={{backgroundImage:`url(${Mohit})`}}>
+                            <div>
+                                <p className="mt-12 font-bold ">Mohit Rajan E</p>
+                                <p className="mt-2">Chairman</p>
+                            </div>
+                            <div className="mb-12 font-light">
+                                <div className="flex justify-center my-2">
+                                    <a href="http://linkden.com" target='__blank'><FaLinkedinIn className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    <a href="http://github.com" target='__blank'><FaGithub className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    
+                                </div>
+                                <p>+91 9037 969 499</p>
+                            </div>
+                        </div>
+                        <div className="flex px-4 mx-4 flex-col text-center justify-between h-full w-full main-test" style={{backgroundImage:`url(${Mohit})`}}>
+                            <div>
+                                <p className="mt-12 font-bold ">Mohit Rajan E</p>
+                                <p className="mt-2">Chairman</p>
+                            </div>
+                            <div className="mb-12 font-light">
+                                <div className="flex justify-center my-2">
+                                    <a href="http://linkden.com" target='__blank'><FaLinkedinIn className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    <a href="http://github.com" target='__blank'><FaGithub className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    
+                                </div>
+                                <p>+91 9037 969 499</p>
+                            </div>
+                        </div>
+                                                <div className="flex px-4 mx-4 flex-col text-center justify-between h-full w-full main-test" style={{backgroundImage:`url(${Mohit})`}}>
+                            <div>
+                                <p className="mt-12 font-bold ">Mohit Rajan E</p>
+                                <p className="mt-2">Chairman</p>
+                            </div>
+                            <div className="mb-12 font-light">
+                                <div className="flex justify-center my-2">
+                                    <a href="http://linkden.com" target='__blank'><FaLinkedinIn className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    <a href="http://github.com" target='__blank'><FaGithub className="mx-2" /></a>{/*<p className="mx-2"></p>*/}
+                                    
+                                </div>
+                                <p>+91 9037 969 499</p>
+                            </div>
+                        </div>
+    
+                    </div>
                 </div>
 
             </div>
