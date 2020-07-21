@@ -42,7 +42,7 @@ class event extends Component{
                             </tr>
                              {eventsData[this.state.currentYear].map(event =>(
                                  // pseudo class not working i.e even iel no background color change
-                                <tr className="even:bg-gray-200">
+                                <tr key={event.id} className="even:bg-gray-200">
                                     <td className="px-2 py-2 font-light  tracking-wider">{event.date}</td>
                                     <td className="p-2">{event.name}</td>
                                 </tr>

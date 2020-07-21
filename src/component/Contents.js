@@ -3,6 +3,7 @@ import './contents.css'
 import logo from './images/Acmlogo.jpeg';
 import Present from '../res/present.json';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 
 class contents extends Component{
@@ -35,7 +36,9 @@ class contents extends Component{
                     </div>
                     {/*this div is for the bottom button */}
                     <div className="button rounded flex justify-center pb-4">
-                        <button className="bg-gray-200 text-black rounded p-3" ><a href="https://docs.google.com/forms/d/e/1FAIpQLScNwhsLm_jtOpGKV4UxWSUsE2v1Q7fL_MK3cAzJTYBa71jLAQ/viewform?usp=sf_link">Join Here</a></button>   
+                        <Link to='/registration' className="bg-gray-200 text-black rounded p-3">
+                            Join here
+                        </Link>
                     </div>
                 </div> 
                 {/*Details about the present members with their numbers and name*/}
