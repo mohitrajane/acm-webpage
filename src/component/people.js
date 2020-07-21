@@ -19,7 +19,7 @@ class People extends Component{
             <div className="flex flex-wrap justify-center text-blue-600 py-2">
                 {
                     Peoplejs.map(item=>(
-                        <div className="md:px-2 py-2 lg:px-2 py-2 w-64">
+                        <div key={item.key} className="md:px-2 py-2 lg:px-2 py-2 w-64">
                     <div className="max-w-sm rounded overflow-hidden bg-gray-100 shadow-lg">
                         <img className="w-full" src={process.env.PUBLIC_URL+item.image} alt={item.name}/>
                         <div className="text-center py-2">

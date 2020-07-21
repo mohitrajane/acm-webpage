@@ -3,6 +3,7 @@ import './contents.css'
 import logo from './images/Acmlogo.jpeg';
 import Present from '../res/present.json';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 
 class contents extends Component{
@@ -35,7 +36,9 @@ class contents extends Component{
                     </div>
                     {/*this div is for the bottom button */}
                     <div className="button rounded flex justify-center pb-4">
-                        <button className="bg-gray-200 text-black rounded p-3" ><a href="https://docs.google.com/forms/d/e/1FAIpQLScNwhsLm_jtOpGKV4UxWSUsE2v1Q7fL_MK3cAzJTYBa71jLAQ/viewform?usp=sf_link">Join Here</a></button>   
+                        <Link to='/registration' className="bg-gray-200 text-black rounded p-3">
+                            Join here
+                        </Link>
                     </div>
                 </div> 
                 {/*Details about the present members with their numbers and name*/}
@@ -45,7 +48,7 @@ class contents extends Component{
                     <div className="flex justify-center item-center w-full"><h1 className="text-2xl my-5">Contact Us</h1></div>
                     <div className="md:flex-wrap lg:w-full flex flex-col sm:flex-row items-center justify-center">
                         {Present.map(item=>(
-                            <div className="py-2">
+                            <div className="py-2" key={item.key}>
                                 <div className="flex px-4 mx-4 flex-col text-center justify-between h-full w-full main-test" style={{backgroundImage:`url(${process.env.PUBLIC_URL+item.image})`}}>
                                     <div>
                                         <p className="mt-12 font-bold ">{item.name}</p>
