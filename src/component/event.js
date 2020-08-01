@@ -15,7 +15,9 @@ class event extends Component{
             currentYear: e.target.id
         });
     }
+   
     render(){
+        console.log(this.state);
         return(
             <div className="">
                 <div className="py-3 flex justify-center">
