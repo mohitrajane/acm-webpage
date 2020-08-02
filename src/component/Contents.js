@@ -12,7 +12,7 @@ class contents extends Component{
             <div className="mt-32">
                 {/*landing page image*/}
                 <div>
-                <img className="h-full mb-3" alt="main_logo"src={logo}/>
+                    <img className="h-full mb-3 object-contain" alt="main_logo"src={logo}/>
                 </div>
                 {/*this div is for the about element */}
                 <div className="bg-blue-600 text-white py-3">
