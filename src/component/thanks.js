@@ -22,7 +22,7 @@ const thankYou =()=>{
                     </div>
                     <div className="md:px-2 py-2 lg:px-2 py-2 w-64">
                         <div className="max-w-sm rounded overflow-hidden bg-gray-100 shadow-lg">
-                            <img className="w-full" src={process.env.PUBLIC_URL+'/images/naveen.jpeg'} alt="Mohit"/>
+                            <img className="w-full" src={process.env.PUBLIC_URL+'/images/dp.jpg'} alt="Mohit"/>
                             <div className="text-center py-2">
                                 <div className="font-bold text-xl mb-2">Naveen B Jacob</div>
 
