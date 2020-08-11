@@ -49,7 +49,7 @@ export default function App(){
         </nav>
         <div>
 
-          <div className="lg:mt-24">
+          <div className="lg:mt-24 md:mt-18">
             <Switch>
               <Route exact path="/" component={MainPage}/>
               <Route path="/event" component={Events}/>
