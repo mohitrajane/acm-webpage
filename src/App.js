@@ -3,6 +3,7 @@ import './output.css';
 import logo from './component/images/logo.png';
 import {BrowserRouter as Router,Switch,Route, NavLink} from 'react-router-dom';
 import MainPage from "./component/Contents";
+import ThankYou from './component/thanks';
 import People from "./component/people";
 import Events from "./component/event";
 import Footer from "./component/footer";
@@ -48,12 +49,13 @@ export default function App(){
         </nav>
         <div>
 
-          <div className="mt-24">
+          <div className="lg:mt-24">
             <Switch>
               <Route exact path="/" component={MainPage}/>
               <Route path="/event" component={Events}/>
               <Route path="/people" component={People}/>
               <Route path="/registration" component={Registration}/>
+              <Route path="/thank" component={ThankYou}/>
               <Route component={notFound}/>
             </Switch>
           </div>

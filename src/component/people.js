@@ -6,7 +6,7 @@ import {AiFillLinkedin} from 'react-icons/ai';
 class People extends Component{
     render(){
         return(
-        <div className="bg-gray-200 text-blue-600">
+        <div className="bg-gray-200 text-blue-600 pt-4">
 
             {/*heading*/}
             <div>

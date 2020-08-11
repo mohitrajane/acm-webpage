@@ -4,27 +4,31 @@
     "image":"/images/yadhu.jpeg",
     "name":"Yadhu Krisha",
     "post":"Chairman",
-    "mobile":"+91 82815 37729"
+    "mobile":"8281537729",
+    "linkedin":"https://www.linkedin.com/in/yadhu-krishnan-546751160/"
     },
         {
     "key":2,
     "image":"/images/aswin.jpeg",
     "name":"Aswin S",
     "post":"Seceratry",
-    "mobile":"+91 82815 02849"
+    "mobile":"8281502849",
+    "linkedin":"https://www.linkedin.com/in/aswin-s-175373180/"
     },
         {
     "key":3,
     "image":"/images/visrutha.jpeg",
     "name":"Visrutha Arunthathi",
     "post":"Vice Chairman",
-    "mobile":"+91 94954 97126"
+    "mobile":"9495497126",
+    "linkedin":"https://www.linkedin.com/in/devu-r-kurup-729bb418a/"
     },
         {
     "key":4,
     "image":"/images/naveen.jpeg",
-    "name":"Naveen",
+    "name":"Naveen Jacob",
     "post":"Treasurer",
-    "mobile":"8606330293"
+    "mobile":"8606330293",
+    "linkedin":"https://www.linkedin.com/in/naveen-b-jacob-229a81182/"
     }
 ]

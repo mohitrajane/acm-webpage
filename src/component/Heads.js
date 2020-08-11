@@ -8,7 +8,7 @@ export default function Heads() {
     const [changeYear, setChangeYear] = useState(presentYear-1);
 
     const decrement = () =>{
-        if(changeYear===2016){
+        if(changeYear===2018){
             document.getElementById('decrementer').style.visibility = 'hidden';
         }
         else{
@@ -29,13 +29,13 @@ export default function Heads() {
     };
     return (
         <div className="text-center p-1">
-        <h1 className='underline'>{changeYear}</h1>
+        <div className="flex justify-center p-2"><h1 className='bg-white rounded text-xl w-16'>{changeYear}</h1></div>
         <div className="flex justify-center">
             <button onClick={decrement} id='decrementer'><AiOutlineArrowLeft/></button>
             {   //to get all the values in key variable of the json.
                 headDetails[changeYear].map(item=>(
-                    <div className='p-2' key={item.key}>
-                        <img className="min-w-24 w-24" src={process.env.PUBLIC_URL+item.image} alt="heads"/>
+                    <div className='p-1' key={item.key}>
+                        <img className="min-w-24 w-24 rounded" src={process.env.PUBLIC_URL+item.image} alt="heads"/>
                         <h4 className="text-center">{item.post}</h4>
                     </div>
                 ))
