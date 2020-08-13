@@ -35,7 +35,7 @@ export default function Heads() {
             {   //to get all the values in key variable of the json.
                 headDetails[changeYear].map(item=>(
                     <div className='p-1' key={item.key}>
-                        <img className="min-w-24 w-24 rounded" src={process.env.PUBLIC_URL+item.image} alt="heads"/>
+                        <img className="min-w-26 w-26 rounded" src={process.env.PUBLIC_URL+item.image} alt="heads"/>
                         <h4 className="text-center">{item.post}</h4>
                     </div>
                 ))
