@@ -1,7 +1,7 @@
 import React,{ useState } from 'react';
 import './output.css';
 import logo from './component/images/logo.png';
-import {BrowserRouter as Router,Switch,Route, NavLink} from 'react-router-dom';
+import {HashRouter as Router,Switch,Route, NavLink} from 'react-router-dom';
 import MainPage from "./component/Contents";
 import ThankYou from './component/thanks';
 import People from "./component/people";
