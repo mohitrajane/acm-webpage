@@ -1,14 +1,30 @@
 import React,{ useState } from 'react';
 import './output.css';
 import logo from './component/images/logo.png';
-import {BrowserRouter as Router,Switch,Route, NavLink} from 'react-router-dom';
+import {HashRouter as Router,Switch,Route, NavLink,useLocation} from 'react-router-dom';
 import MainPage from "./component/Contents";
+import {AnimatePresence} from 'framer-motion';
 import ThankYou from './component/thanks';
 import People from "./component/people";
 import Events from "./component/event";
 import Footer from "./component/footer";
 import Registration from './component/registration';
+
+const pageVariation = {
+  in:{ opacity: 1,
+  y:0 },
+  inThank:{ opacity: 1,
+    x:0 },
+  out:{ opacity: 0,
+  y:"-100%"},
+  outThank:{ opacity: 0,
+    x:"-100vw"}
+};
+const pageTransition={
+  duration:1
+};
 export default function App(){
+    // const location = useLocation();
     const [isOpen, setIsOpen] = useState(window.innerWidth <= 640 ? false : true);
     const notFound=()=>{return(
       <div className="flex items-center h-screen text-6xl">
@@ -19,7 +35,7 @@ export default function App(){
     );}
   return(
     <Router>
-              <nav className="flex items-center justify-between flex-wrap bg-gray-100 text-blue-600 p-2 lg:fixed lg:w-full lg:top-0 ">
+              <nav style={{zIndex:1000}} className="flex items-center justify-between flex-wrap bg-gray-100 text-blue-600 p-2 lg:fixed lg:w-full lg:top-0 ">
             <NavLink to="/">
                 <div className="flex items-center flex-shrink-0 mr-6">
                     <img className="h-16 w-16 mx-4 mt-4" src={logo} alt="logo"/>
@@ -49,19 +65,35 @@ export default function App(){
         </nav>
         <div>
 
-          <div className="lg:mt-24 md:mt-18">
-            <Switch>
-              <Route exact path="/" component={MainPage}/>
-              <Route path="/event" component={Events}/>
-              <Route path="/people" component={People}/>
-              <Route path="/registration" component={Registration}/>
-              <Route path="/thank" component={ThankYou}/>
-              <Route component={notFound}/>
-            </Switch>
+          <div className="lg:mt-24 md:mt-18"
+          style={{overflowX:'hidden'}}>
+            <AnimatePresence exitBeforeEnter>
+              <Switch>
+                <Route exact path="/">
+                    <MainPage pageVariation={pageVariation} pageTransition={pageTransition}/>
+                </Route>
+                <Route path="/event">
+                  <Events pageVariation={pageVariation} pageTransition={pageTransition}/>
+                </Route>
+                <Route path="/people">
+                  <People pageVariation={pageVariation} pageTransition={pageTransition}/>
+                </Route>
+                <Route path="/registration">
+                  <Registration pageVariation={pageVariation} pageTransition={pageTransition}/>
+                </Route>
+                <Route path="/thank">
+                  <ThankYou pageVariation={pageVariation} pageTransition={pageTransition}/>
+                </Route>
+                <Route>
+                  <notFound/>
+                </Route>
+              </Switch>
+            </AnimatePresence>
+            
           </div>
 
         </div>
-        <Footer/>
+        <Footer pageVariation={pageVariation} pageTransition={pageTransition}/>
     </Router>
   );
 }

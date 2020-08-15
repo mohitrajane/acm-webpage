@@ -8,7 +8,7 @@ export default function Heads() {
     const [changeYear, setChangeYear] = useState(presentYear-1);
 
     const decrement = () =>{
-        if(changeYear===2018){
+        if(changeYear===2016){
             document.getElementById('decrementer').style.visibility = 'hidden';
         }
         else{

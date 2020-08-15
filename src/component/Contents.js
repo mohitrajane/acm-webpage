@@ -1,13 +1,15 @@
 import React from 'react';
-import './contents.css'
+import './contents.css';
+import {motion} from 'framer-motion';
 import logo from './images/Acmlogo.jpeg';
 import Present from '../res/present.json';
 import {FaLinkedinIn} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
-function Contents(){
+function Contents(props){
     return(
-        <div>
+        <motion.div
+        initial="out" animate="in" exit="out" variants={props.pageVariation} transition={props.pageTransition}>
             {/*landing page image*/}
             <div className="">
                     <img className="hidden object-contain md:block " alt="main_logo"src={logo}/>
@@ -67,7 +69,7 @@ function Contents(){
 
                     </div>
                 </div>
-        </div>
+        </motion.div>
     );
 }
 export default Contents;

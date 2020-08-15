@@ -33,5 +33,40 @@
             "image":"/images/visrutha.jpeg",
             "post":"Treasurer"
         }
+    ],
+
+    "2017" : [
+        {
+            "key":1,
+            "image":"/images/rohit.jpeg",
+            "post":"Chairman"
+        },
+        {
+            "key":2,
+            "image":"/images/lakshmi.jpeg",
+            "post":"Vice Chairman"
+        },
+        {
+            "key":3,
+            "image":"/images/yadhu.jpeg",
+            "post":"Treasurer"
+        }
+    ],
+    "2016" : [
+        {
+            "key":1,
+            "image":"/images/anand.jpeg",
+            "post":"Chairman"
+        },
+        {
+            "key":2,
+            "image":"/images/rohit.jpeg",
+            "post":"Vice Chairman"
+        },
+        {
+            "key":3,
+            "image":"/images/lakshmi.jpeg",
+            "post":"Treasurer"
+        }
     ]
 }

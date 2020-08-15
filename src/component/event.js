@@ -1,12 +1,14 @@
 import React,{ useState } from 'react';
 import eventsData from '../res/events.json';
+import {motion} from 'framer-motion';
 
 
-const Event = () => {
+const Event = (props) => {
     const [years, setYears] = useState(Object.keys(eventsData).reverse());
     const [currentYear, setCurrentYear] = useState(Object.keys(eventsData).reverse()[0]);
     return(
-        <div className="">
+        <motion.div
+        initial="outThank" animate="inThank" exit="outThank" variants={props.pageVariation} transition={props.pageTransition} className="">
             <div className="py-3 flex justify-center">
                 <table className="table-fixed shadow-lg">
                     <thead className="py-2 bg-gray-200">
@@ -39,7 +41,7 @@ const Event = () => {
                     </tbody>
                 </table>
             </div>
-        </div>
+        </motion.div>
     );
 };
 
