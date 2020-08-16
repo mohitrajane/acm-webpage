@@ -30,7 +30,7 @@ export default function App(){
 
   return(
     <div className="flex flex-col h-screen justify-between">
-              <nav style={{zIndex:1000}} className="flex items-center justify-between flex-wrap bg-gray-100 text-blue-600 p-2 lg:fixed lg:w-full lg:top-0 ">
+              <nav style={{zIndex:1000}} className="flex items-center justify-between flex-wrap bg-gray-100 text-blue-600 p-2 lg:sticky lg:w-full lg:top-0 ">
             <NavLink to="/">
                 <div className="flex items-center flex-shrink-0 mr-6">
                     <img className="h-16 w-16 mx-4 mt-4" src={logo} alt="logo"/>
@@ -58,8 +58,8 @@ export default function App(){
                 : ''
             }
         </nav>
-        <div>
-          <div className="lg:mt-24 md:mt-18" style={{overflowX:'hidden',overflowY:'hidden'}}>
+        <div className="h-full">
+          <div className=" md:mt-18 h-full" style={{overflowX:'hidden',overflowY:'hidden'}}>
             <AnimatePresence exitBeforeEnter>
               <Switch location={location} key={location.pathname}>
                 <Route exact path="/">
