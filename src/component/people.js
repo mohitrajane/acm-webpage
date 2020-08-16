@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import Heads   from './Heads';
 import Peoplejs from '../res/people.json';
 import {AiFillLinkedin} from 'react-icons/ai';
+import {motion} from 'framer-motion';
 
-class People extends Component{
-    render(){
+const People=(props)=>{
         return(
-        <div className="bg-gray-200 text-blue-600 pt-4">
+        <motion.div
+        initial="outThank" animate="inThank" exit="outThank" variants={props.pageVariation} className="bg-gray-200 text-blue-600 pt-4">
 
             {/*heading*/}
             <div>
@@ -42,8 +43,7 @@ class People extends Component{
             
 
             <hr/>
-        </div>
+        </motion.div>
         );
     }
-}
 export default People

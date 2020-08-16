@@ -1,16 +1,18 @@
 import React from 'react';
-import './contents.css'
+import './contents.css';
+import {motion} from 'framer-motion';
 import logo from './images/Acmlogo.jpeg';
 import Present from '../res/present.json';
-import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
+import {FaLinkedinIn} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
-function contents(){
+function Contents(props){
     return(
-        <div>
+        <motion.div
+        initial="outThank" animate="inThank" exit="outThank" variants={props.pageVariation} >
             {/*landing page image*/}
             <div className="">
-                    <img className="hidden object-contain bg-red-300 md:block " alt="main_logo"src={logo}/>
+                    <img className="hidden object-contain md:block " alt="main_logo"src={logo}/>
                 </div>
                 {/*this div is for the about element */}
                 <div className="bg-blue-600 text-white">
@@ -67,7 +69,7 @@ function contents(){
 
                     </div>
                 </div>
-        </div>
+        </motion.div>
     );
 }
-export default contents;
+export default Contents;

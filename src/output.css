@@ -8,9 +8,14 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
  *{
-  font-family: 'Lora', serif;
+  font-family: 'roboto', serif;
  }
-
+/* .page{
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+} */
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
