@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 function Contents(props){
     return(
         <motion.div
-        initial="out" animate="in" exit="out" variants={props.pageVariation} transition={props.pageTransition}>
+        initial="outThank" animate="inThank" exit="outThank" variants={props.pageVariation} >
             {/*landing page image*/}
             <div className="">
                     <img className="hidden object-contain md:block " alt="main_logo"src={logo}/>

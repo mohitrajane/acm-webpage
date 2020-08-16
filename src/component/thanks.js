@@ -5,7 +5,7 @@ import {motion} from 'framer-motion';
 const thankYou =(props)=>{
     return(
         <motion.div
-        initial="outThank" animate="inThank" exit="outThank" variants={props.pageVariation} transition={props.pageTransition} className="h-full item-center bg-grey-200">
+        initial="outThank" animate="inThank" exit="outThank" variants={props.pageVariation}  className="h-screen item-center bg-grey-200">
             <div className="m-auto">
                 <h1 className="text-xl flex justify-center ">Thank you</h1>
                 <div className="Cards flex justify-center flex-wrap">

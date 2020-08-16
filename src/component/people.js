@@ -7,7 +7,7 @@ import {motion} from 'framer-motion';
 const People=(props)=>{
         return(
         <motion.div
-        initial="outThank" animate="inThank" exit="outThank" variants={props.pageVariation} transition={props.pageTransition} className="bg-gray-200 text-blue-600 pt-4">
+        initial="outThank" animate="inThank" exit="outThank" variants={props.pageVariation} className="bg-gray-200 text-blue-600 pt-4">
 
             {/*heading*/}
             <div>
