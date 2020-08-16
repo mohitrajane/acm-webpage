@@ -8,7 +8,7 @@ const Event = (props) => {
     const [currentYear, setCurrentYear] = useState(Object.keys(eventsData).reverse()[0]);
     return(
         <motion.div initial="outThank" animate="inThank" exit="outThank" variants={props.pageVariation} className="">
-            <div className="py-3 flex justify-center h-screen">
+            <div className="py-3 flex justify-center">
                 <table className="table-fixed shadow-lg align-middle min-h-64">
                     <thead className="py-2 bg-gray-200">
                         <tr>

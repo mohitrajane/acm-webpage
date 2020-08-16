@@ -29,7 +29,7 @@ export default function App(){
     const [isOpen, setIsOpen] = useState(window.innerWidth <= 640 ? false : true);
 
   return(
-    <div>
+    <div className="flex flex-col h-screen justify-between">
               <nav style={{zIndex:1000}} className="flex items-center justify-between flex-wrap bg-gray-100 text-blue-600 p-2 lg:fixed lg:w-full lg:top-0 ">
             <NavLink to="/">
                 <div className="flex items-center flex-shrink-0 mr-6">
