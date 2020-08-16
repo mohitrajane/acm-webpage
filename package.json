@@ -1,5 +1,5 @@
 {
-  "homepage": ".",
+  "homepage": "http://naveenbjacob.github.io/acm-webpage",
   "name": "acm-webpage",
   "main": "index.js",
   "version": "0.1.0",
@@ -15,8 +15,10 @@
     "react-iframe": "^1.8.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.3",
+
     "react-spinkit": "^3.0.0",
     "react-transition-group": "^4.4.1",
+
     "serve": "^11.3.2",
     "tailwindcss": "^1.6.2",
     "yargs-parser": "^18.1.3"
